@@ -291,7 +291,7 @@ const PAL_LIGHT={
 /* ===================== nodos ===================== */
 const VERSIONS={
   tp1:{
-    ORDER:["Y","I","C","M","R"], glyph:true,
+    ORDER:["Y","I","C","M","R"], glyph:true, W:3960, H:2470,
     stage:["","Etapa 1 · Videojuego","Etapa 2 · Afiches AR","Etapa 3 · Hackeo y evento"],
     note:"Los mismos ajustes que el afiche AR de la etapa 2 le ofrece a Iván. Las líneas también se distinguen por trazo, así el color nunca es el único dato.",
     sub:"El evento en el centro, las piezas de la campaña orbitando en el orden en que ocurren, y cada persona entrando por su propio canal. Cuando dos personas usan el mismo canal, convergen en el mismo nodo.",
@@ -379,7 +379,7 @@ const VERSIONS={
   tp3:{
     stage:["","Etapa 1 · Videojuego","Etapa 2 · Afiches en la calle","Etapa 3 · Evento"],
     note:"Los mismos ajustes que la web de los afiches (etapa 2) le ofrece a Iván. Las líneas también se distinguen por trazo, así el color nunca es el único dato.",
-    ORDER:["Y","I","C","M","R"],
+    ORDER:["Y","I","C","M","R"], W:3960, H:2470,
     sub:"El evento en el centro, las piezas de la campaña orbitando en el orden en que ocurren, y cada persona entrando por su propio canal. Cuando dos personas usan el mismo canal, convergen en el mismo nodo.",
     aria:"Mapa transmedia radial: cinco user personas recorren las tres etapas de la campaña y convergen en el evento",
     pieza:"Pieza de la campaña", dest:"Convergencia (final del mapa, evento de concientización)",
@@ -484,59 +484,59 @@ const VERSIONS={
   tp4:{
     stage:["Cómo se entera","Etapa 1 · Videojuego","Etapa 2 · Afiches en la calle","Etapa 3 · Evento"],
     note:"Los mismos ajustes que la web de los afiches (etapa 2) le ofrece a Iván. Las líneas también se distinguen por trazo, así el color nunca es el único dato.",
-    ORDER:["Y","I","C","M","R","T"],
+    ORDER:["Y","I","C","M","R","T"], W:6000, H:3000,
     sub:"El evento en el centro, con sus piezas alrededor, y las piezas de la campaña orbitando en el orden en que ocurren. Cada persona entra por su propio canal y casi todas se encuentran en la recepción. La landing es pública: completar los afiches da ventaja para reservar, no es una condición.",
     aria:"Mapa transmedia radial: seis user personas recorren las tres etapas de la campaña y las piezas del evento",
     pieza:"Pieza de la campaña o del evento", dest:"El evento (Palacio Libertad)",
     N:{
   /* canales */
-  redes:    {x:1950,y:250, w:560,h:96,t:"canal",l:["Redes sociales"],meta:"Instagram · TikTok",g:["instagram","tiktok"],st:1},
-  creadores:{x:700, y:800, w:250,h:88,t:"canal",l:["Círculo de","influencers"],meta:"Boca a boca",g:["people"],st:1},
-  monitoreo:{x:600, y:1300,w:250,h:88,t:"canal",l:["Monitoreo de","tendencias"],meta:"Redacción",g:["bullseye"],st:1},
-  asesores: {x:800, y:1800,w:250,h:88,t:"canal",l:["Asesores de","comunicación"],meta:"Equipo político",g:["search"],st:1},
-  familiar: {x:1780,y:2150,w:250,h:88,t:"canal",l:["Entorno familiar"],meta:"Hijos y nietos",g:["house-heart"],st:1},
-  whatsapp: {x:2370,y:300, w:250,h:88,t:"canal",l:["Grupo de WhatsApp"],meta:"Mensajería cerrada",g:["whatsapp","people"],st:2},
+  redes:    {x:3000,y:300, w:560,h:96,t:"canal",l:["Redes sociales"],meta:"Instagram · TikTok",g:["instagram","tiktok"],st:1},
+  creadores:{x:938,y:960, w:250,h:88,t:"canal",l:["Círculo de","influencers"],meta:"Boca a boca",g:["people"],st:1},
+  monitoreo:{x:772,y:1560,w:250,h:88,t:"canal",l:["Monitoreo de","tendencias"],meta:"Redacción",g:["bullseye"],st:1},
+  asesores: {x:1102,y:2160,w:250,h:88,t:"canal",l:["Asesores de","comunicación"],meta:"Equipo político",g:["search"],st:1},
+  familiar: {x:2720,y:2580,w:250,h:88,t:"canal",l:["Entorno familiar"],meta:"Hijos y nietos",g:["house-heart"],st:1},
+  whatsapp: {x:3750,y:340, w:250,h:88,t:"canal",l:["Grupo de WhatsApp"],meta:"Mensajería cerrada",g:["whatsapp","people"],st:2},
   /* piezas */
-  juego:  {x:1300,y:720, w:250,h:112,t:"pieza",l:["Videojuego flash"],meta:"Solo se promociona en redes",g:["controller"],st:1,tag:"Etapa 01"},
-  afiche: {x:2620,y:720, w:260,h:112,t:"pieza",l:["Afiche AR en","vía pública"],meta:"Realidad extendida",g:["qr-code-scan"],st:2,tag:"Etapa 02"},
-  tele1:  {x:3060,y:1150,w:250,h:112,t:"pieza",l:["Tele de Kennedy"],meta:"Abuelos · 1963",g:["tv"],st:2},
-  tele2:  {x:3120,y:1450,w:250,h:112,t:"pieza",l:["Tele de Chernobil"],meta:"Padres · 1986",g:["tv"],st:2},
-  tele3:  {x:2860,y:1700,w:250,h:112,t:"pieza",l:["Tele de la AMIA"],meta:"Padres · 1994",g:["tv"],st:2},
-  tele4:  {x:2500,y:1900,w:250,h:112,t:"pieza",l:["Tele del 11-S"],meta:"Vos · 2001",g:["tv"],st:2},
-  desbloqueo:{x:2000,y:1900,w:390,h:112,t:"pieza",l:["Último","desbloqueo"],meta:"Ventaja para reservar",g:["unlock"],st:3,tag:"Etapa 03"},
+  juego:  {x:1928,y:864, w:250,h:112,t:"pieza",l:["Videojuego flash"],meta:"Solo se promociona en redes",g:["controller"],st:1,tag:"Etapa 01"},
+  afiche: {x:4106,y:864, w:260,h:112,t:"pieza",l:["Afiche AR en","vía pública"],meta:"Realidad extendida",g:["qr-code-scan"],st:2,tag:"Etapa 02"},
+  tele1:  {x:4832,y:1380,w:250,h:112,t:"pieza",l:["Tele de Kennedy"],meta:"Abuelos · 1963",g:["tv"],st:2},
+  tele2:  {x:4930,y:1740,w:250,h:112,t:"pieza",l:["Tele de Chernobil"],meta:"Padres · 1986",g:["tv"],st:2},
+  tele3:  {x:4502,y:2040,w:250,h:112,t:"pieza",l:["Tele de la AMIA"],meta:"Padres · 1994",g:["tv"],st:2},
+  tele4:  {x:3908,y:2280,w:250,h:112,t:"pieza",l:["Tele del 11-S"],meta:"Vos · 2001",g:["tv"],st:2},
+  desbloqueo:{x:3082,y:2280,w:390,h:112,t:"pieza",l:["Último","desbloqueo"],meta:"Ventaja para reservar",g:["unlock"],st:3,tag:"Etapa 03"},
   /* emergentes */
-  ajustes:  {x:3420,y:1050,w:300,h:88,t:"emergente",l:["Ajustes de","accesibilidad"],meta:"Texto · contraste · daltonismo",g:["eye-slash"],st:2},
-  discusion:{x:3520,y:1600,w:290,h:88,t:"emergente",l:["Discusión pública","sobre accesibilidad"],meta:"Vuelve a redes",g:["volume-down"],st:2},
+  ajustes:  {x:5426,y:1260,w:300,h:88,t:"emergente",l:["Ajustes de","accesibilidad"],meta:"Texto · contraste · daltonismo",g:["eye-slash"],st:2},
+  discusion:{x:5590,y:1920,w:290,h:88,t:"emergente",l:["Discusión pública","sobre accesibilidad"],meta:"Vuelve a redes",g:["volume-down"],st:2},
 
   /* canal nuevo: Tomás llega con su curso */
-  curso:    {x:700, y:1060,w:250,h:88,t:"canal",l:["Grupo del curso"],meta:"Boca a boca",g:["graduation-cap"],st:0},
+  curso:    {x:938,y:1272,w:250,h:88,t:"canal",l:["Grupo del curso"],meta:"Boca a boca",g:["graduation-cap"],st:0},
   /* Etapa 3 · piezas de campaña y del evento */
-  landing:  {x:1950,y:500, w:300,h:112,t:"pieza",l:["Landing","del evento"],meta:"Web pública",g:["globe"],st:3,tag:"Etapa 03"},
-  demo:     {x:1480,y:500, w:250,h:112,t:"pieza",l:["Mini demo"],meta:"45 s · jugable",g:["play"],st:3},
-  reserva:  {x:1950,y:730, w:300,h:112,t:"pieza",l:["Reserva por web"],meta:"Día · turno · personas",g:["calendar-check"],st:3},
-  banda:    {x:2700,y:470, w:290,h:112,t:"pieza",l:["Banda del evento","en los afiches"],meta:"Fuera de la imagen",g:["panel-top"],st:3},
-  carteleria:{x:1330,y:880,w:280,h:112,t:"pieza",l:["Cartelería y","señalética"],meta:"Banner · carteles · flechas",g:["signpost"],st:3},
-  recepcion:{x:1950,y:950, w:300,h:112,t:"pieza",l:["Recepción"],meta:"Grupos · reservas · fila",g:["concierge-bell"],st:3},
-  turnos:   {x:2400,y:900, w:280,h:112,t:"pieza",l:["Pantalla de turnos"],meta:"Espera · número · QR",g:["ticket"],st:3},
-  folleto:  {x:1330,y:1060,w:250,h:112,t:"pieza",l:["Folleto"],meta:"Plano pisos 5 y 9",g:["map"],st:3},
-  tarjeta:  {x:1950,y:1660,w:300,h:112,t:"pieza",l:["Tarjeta por QR","y cuestionario"],meta:"Cierre de la visita",g:["clipboard-check"],st:3},
+  landing:  {x:3000,y:640, w:300,h:112,t:"pieza",l:["Landing","del evento"],meta:"Web pública",g:["globe"],st:3,tag:"Etapa 03"},
+  demo:     {x:2400,y:640, w:250,h:112,t:"pieza",l:["Mini demo"],meta:"45 s · jugable",g:["play"],st:3},
+  reserva:  {x:3000,y:870, w:300,h:112,t:"pieza",l:["Reserva por web"],meta:"Día · turno · personas",g:["calendar-check"],st:3},
+  banda:    {x:3800,y:620, w:290,h:112,t:"pieza",l:["Banda del evento","en los afiches"],meta:"Fuera de la imagen",g:["panel-top"],st:3},
+  carteleria:{x:2300,y:1010,w:280,h:112,t:"pieza",l:["Cartelería y","señalética"],meta:"Banner · carteles · flechas",g:["signpost"],st:3},
+  recepcion:{x:3000,y:1080, w:300,h:112,t:"pieza",l:["Recepción"],meta:"Grupos · reservas · fila",g:["concierge-bell"],st:3},
+  turnos:   {x:3500,y:1070, w:280,h:112,t:"pieza",l:["Pantalla de turnos"],meta:"Espera · número · QR",g:["ticket"],st:3},
+  folleto:  {x:2300,y:1210,w:250,h:112,t:"pieza",l:["Folleto"],meta:"Plano pisos 5 y 9",g:["map"],st:3},
+  tarjeta:  {x:3000,y:1900,w:300,h:112,t:"pieza",l:["Tarjeta por QR","y cuestionario"],meta:"Cierre de la visita",g:["clipboard-check"],st:3},
   /* instalaciones, juego y charlas */
-  i4:       {x:2380,y:1100,w:280,h:112,t:"actividad",l:["Mesa de noticias"],meta:"Piso 5 · instalación 04",g:["newspaper"],st:3},
-  i1:       {x:2780,y:1100,w:280,h:112,t:"actividad",l:["Tótem de foto","y mensaje"],meta:"Piso 5 · instalación 01",g:["camera"],st:3},
-  i3:       {x:2380,y:1290,w:280,h:112,t:"actividad",l:["Pared del año"],meta:"Piso 5 · instalación 03",g:["film"],st:3},
-  es:       {x:2780,y:1290,w:280,h:112,t:"actividad",l:["Escultura de cubos"],meta:"Piso 5 · videomapping",g:["box"],st:3},
-  i5:       {x:2380,y:1480,w:280,h:112,t:"actividad",l:["Cabina «Tu voz»"],meta:"Piso 5 · instalación 05",g:["audio-lines"],st:3},
-  i2:       {x:1400,y:1260,w:280,h:112,t:"actividad",l:["Tótems de mensajes"],meta:"Piso 9 · instalación 02",g:["message-square-text"],st:3},
-  ji:       {x:1400,y:1450,w:280,h:112,t:"actividad",l:["Juego de","investigadores"],meta:"Cúpula · 20 min",g:["scan-search"],st:3},
-  c1:       {x:1400,y:1640,w:290,h:112,t:"actividad",l:["Charla 01"],meta:"Jue 28 · 18 h · Verificar",g:["presentation"],st:3},
-  c2:       {x:1400,y:1830,w:290,h:112,t:"actividad",l:["Charla 02"],meta:"Sáb 30 · 18 h · Voces",g:["mic"],st:3},
+  i4:       {x:3500,y:1260,w:280,h:112,t:"actividad",l:["Mesa de noticias"],meta:"Piso 5 · instalación 04",g:["newspaper"],st:3},
+  i1:       {x:4100,y:1260,w:280,h:112,t:"actividad",l:["Tótem de foto","y mensaje"],meta:"Piso 5 · instalación 01",g:["camera"],st:3},
+  i3:       {x:3500,y:1460,w:280,h:112,t:"actividad",l:["Pared del año"],meta:"Piso 5 · instalación 03",g:["film"],st:3},
+  es:       {x:4100,y:1460,w:280,h:112,t:"actividad",l:["Escultura de cubos"],meta:"Piso 5 · videomapping",g:["box"],st:3},
+  i5:       {x:3500,y:1660,w:280,h:112,t:"actividad",l:["Cabina «Tu voz»"],meta:"Piso 5 · instalación 05",g:["audio-lines"],st:3},
+  i2:       {x:1900,y:1400,w:280,h:112,t:"actividad",l:["Tótems de mensajes"],meta:"Piso 9 · instalación 02",g:["message-square-text"],st:3},
+  ji:       {x:1900,y:1600,w:280,h:112,t:"actividad",l:["Juego de","investigadores"],meta:"Cúpula · 20 min",g:["scan-search"],st:3},
+  c1:       {x:1900,y:1800,w:290,h:112,t:"actividad",l:["Charla 01"],meta:"Jue 28 · 18 h · Verificar",g:["presentation"],st:3},
+  c2:       {x:1900,y:2000,w:290,h:112,t:"actividad",l:["Charla 02"],meta:"Sáb 30 · 18 h · Voces",g:["mic"],st:3},
   /* centro */
-  evento: {x:1950,y:1250,r:172,t:"destino",l:["EVENTO"],meta:"28 · 29 · 30 oct 2027",g:["star"],st:3}
+  evento: {x:3000,y:1500,r:172,t:"destino",l:["EVENTO"],meta:"28 · 29 · 30 oct 2027",g:["star"],st:3}
 },
     PN:{
-  yamila:{x:620,y:250,k:"Y"}, ivan:{x:300,y:700,k:"I"}, carla:{x:250,y:1300,k:"C"},
-  marcelo:{x:420,y:2060,k:"M"}, raul:{x:2180,y:2280,k:"R"},
-  tomas:{x:300,y:1010,k:"T"}
+  yamila:{x:806,y:300,k:"Y"}, ivan:{x:278,y:840,k:"I"}, carla:{x:195,y:1560,k:"C"},
+  marcelo:{x:476,y:2472,k:"M"}, raul:{x:3380,y:2736,k:"R"},
+  tomas:{x:278,y:1212,k:"T"}
 },
     E:[
 /* ---------------- Yamila Duarte ---------------- */
@@ -667,7 +667,7 @@ const PR=52;
 
 /* ===================== geometría ===================== */
 const SVGNS="http://www.w3.org/2000/svg";
-const W=3960,H=2470;
+let W=3960,H=2470;
 function el(n,at){const e=document.createElementNS(SVGNS,n);for(const k in at)if(at[k]!==null&&at[k]!==undefined)e.setAttribute(k,at[k]);return e;}
 function center(id){ return PN[id]?[PN[id].x,PN[id].y]:[N[id].x,N[id].y]; }
 
@@ -1007,7 +1007,7 @@ function refresh(){
 }
 
 let labelsMode="auto";
-function scaleNow(){const r=svg.getBoundingClientRect();return r.width/vb.w;}
+function scaleNow(){const r=svg.getBoundingClientRect();return Math.min(r.width/vb.w,r.height/vb.h);}
 function updateLabels(){
   const s=scaleNow();
   const show = labelsMode==="always" ? true : labelsMode==="never" ? false
@@ -1184,7 +1184,7 @@ const VDESC={
 };
 let curVer=null;
 function mount(key){
-  const v=VERSIONS[key]; ORDER=v.ORDER; N=v.N; PN=v.PN; E=v.E; useGlyph=!!v.glyph; STAGE=v.stage;
+  const v=VERSIONS[key]; ORDER=v.ORDER; N=v.N; PN=v.PN; E=v.E; useGlyph=!!v.glyph; STAGE=v.stage; W=v.W; H=v.H; svg.setAttribute("viewBox","0 0 "+W+" "+H);
   document.getElementById("a11yNote").textContent=v.note;
   Object.keys(N).forEach(k=>{const n=N[k]; n.id=k; if(!n.r) n.h=Math.round(metrics(n).blockH+38);});
   gGuide.textContent="";gEdges.textContent="";gNodes.textContent="";gLeaders.textContent="";gLabels.textContent="";

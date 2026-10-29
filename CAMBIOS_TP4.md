@@ -11,6 +11,10 @@ Debajo del título hay tres botones: **TP1 · Original**, **TP3 · Teles** y **T
 - **TP4:** la versión nueva.
 Las tres comparten el panel de accesibilidad, el zoom y los recorridos por persona.
 
+## Espaciado
+El TP4 tiene un lienzo más grande y más ancho (6000 × 3000, contra 3960 × 2470 del TP1 y el TP3). Las piezas de afuera se alejaron del centro y las del evento se reacomodaron en columnas: pre-visita arriba, recepción debajo, piso 9 a la izquierda, piso 5 a la derecha y el cierre abajo.
+Además, las etiquetas de las flechas ya no se muestran en la vista general (se ven al acercar o al elegir una persona); antes aparecían demasiado pronto en pantallas anchas y se pisaban.
+
 ## Datos generales
 - Evento: jueves 28, viernes 29 y sábado 30 de octubre de 2027, de 14 a 20 h, en el Palacio Libertad. Va en el nodo central y en el texto de la web.
 - Seis personas (se suma Tomás Ledesma).
